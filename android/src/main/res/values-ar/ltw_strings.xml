@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ltw_widget_label">المؤقت</string>
+    <string name="ltw_widget_description">مؤقت مباشر يستمر في العمل والتطبيق مغلق</string>
+    <string name="ltw_idle_title">لا يوجد مؤقت يعمل</string>
+    <string name="ltw_idle_subtitle">افتح التطبيق لتبدأ</string>
+</resources>

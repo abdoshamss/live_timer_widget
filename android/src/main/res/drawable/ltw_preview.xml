@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Picker preview for launchers older than Android 12 (which use
+     previewLayout instead). -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ltw_root_bg" />
+</layer-list>

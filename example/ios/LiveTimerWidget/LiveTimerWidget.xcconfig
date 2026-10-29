@@ -1,0 +1,6 @@
+// The extension's version must match the app's, which Flutter writes from
+// pubspec.yaml into Generated.xcconfig.
+#include "../Flutter/Generated.xcconfig"
+
+MARKETING_VERSION = $(FLUTTER_BUILD_NAME)
+CURRENT_PROJECT_VERSION = $(FLUTTER_BUILD_NUMBER)

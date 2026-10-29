@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - live_timer_widget (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - live_timer_widget (from `.symlinks/plugins/live_timer_widget/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  live_timer_widget:
+    :path: ".symlinks/plugins/live_timer_widget/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 71a624a5bc0c04062bf19101d501e466baf2fb47
+  live_timer_widget: 0f4df1ffc195639a753fd7c75d813b39ae6eea33
+
+PODFILE CHECKSUM: 3ba3a73b1b12adcf321a227a745625fe0888cc82
+
+COCOAPODS: 1.16.2

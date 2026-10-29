@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!-- Merged into the app: depending on the plugin is enough to get the
+             widget. Remove it with tools:node="remove" if you don't want it. -->
+        <receiver
+            android:name="io.github.abdoshamss.live_timer_widget.LiveTimerWidgetProvider"
+            android:exported="false"
+            android:label="@string/ltw_widget_label">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/ltw_widget_info" />
+        </receiver>
+    </application>
+</manifest>

@@ -1,0 +1,6 @@
+# The example's build output and the generated iOS extension stay local.
+example/build/
+example/.dart_tool/
+example/ios/Pods/
+build/
+.dart_tool/

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Every ltw_* resource can be overridden by the app with one of the same
+     name, e.g. to rename the widget in the picker. -->
+<resources>
+    <string name="ltw_widget_label">Timer</string>
+    <string name="ltw_widget_description">A live timer that keeps running with the app closed</string>
+    <string name="ltw_idle_title">No timer running</string>
+    <string name="ltw_idle_subtitle">Open the app to start one</string>
+
+    <!-- Shown before the app writes its own style. -->
+    <color name="ltw_background">#1B1530</color>
+    <color name="ltw_foreground">#FFFFFF</color>
+    <color name="ltw_muted">#CCFFFFFF</color>
+
+    <dimen name="ltw_corner_radius">20dp</dimen>
+    <dimen name="ltw_padding">16dp</dimen>
+</resources>

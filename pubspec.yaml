@@ -1,0 +1,41 @@
+name: live_timer_widget
+description: >-
+  Live timers on the home screen. An Android app widget and an iOS WidgetKit
+  home and lock screen widget that tick every second with the app closed,
+  with progress, stages, images and deep links, all driven from Dart.
+version: 0.1.0
+homepage: https://github.com/abdoshamss/live_timer_widget
+repository: https://github.com/abdoshamss/live_timer_widget
+issue_tracker: https://github.com/abdoshamss/live_timer_widget/issues
+topics:
+  - widget
+  - home-screen
+  - timer
+  - widgetkit
+  - countdown
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+  flutter: '>=3.38.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+executables:
+  setup_ios: setup_ios
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: io.github.abdoshamss.live_timer_widget
+        pluginClass: LiveTimerWidgetPlugin
+      ios:
+        pluginClass: LiveTimerWidgetPlugin
